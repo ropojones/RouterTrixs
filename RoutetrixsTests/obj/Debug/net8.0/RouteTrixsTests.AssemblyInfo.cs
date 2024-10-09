@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoutetrixsTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e49f0a486e53bb5209987fc5d171fb77197faf1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+303e36d5dcf264d231d912abf51ef7931762cb46")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoutetrixsTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoutetrixsTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
