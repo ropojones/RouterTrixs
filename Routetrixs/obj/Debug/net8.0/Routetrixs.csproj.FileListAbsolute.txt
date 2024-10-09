@@ -1,0 +1,15 @@
+C:\Development\NewGlobe\Routetrixs\bin\Debug\net8.0\Routetrixs.exe
+C:\Development\NewGlobe\Routetrixs\bin\Debug\net8.0\Routetrixs.deps.json
+C:\Development\NewGlobe\Routetrixs\bin\Debug\net8.0\Routetrixs.runtimeconfig.json
+C:\Development\NewGlobe\Routetrixs\bin\Debug\net8.0\Routetrixs.dll
+C:\Development\NewGlobe\Routetrixs\bin\Debug\net8.0\Routetrixs.pdb
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\Routetrixs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\Routetrixs.AssemblyInfoInputs.cache
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\Routetrixs.AssemblyInfo.cs
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\Routetrixs.csproj.CoreCompileInputs.cache
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\Routetrixs.sourcelink.json
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\Routetrixs.dll
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\refint\Routetrixs.dll
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\Routetrixs.pdb
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\Routetrixs.genruntimeconfig.cache
+C:\Development\NewGlobe\Routetrixs\obj\Debug\net8.0\ref\Routetrixs.dll

@@ -47,8 +47,9 @@ namespace RouteTrixs
                                 "4. Compute Route Distances\n" +
                                 "5. Compute Number of Trips in Academy Routes with N-Max Stops\n" +
                                 "6. Compute Number of Trips in Academy Routes with N-Exact Stops\n" +
-                                "7. Find Routes with Distance Less than N\n" +
-                                "8. Exit RouteTrix\n");
+                                "7. Length/Distance of Shortest Route between to points\n" +
+                                "8. Find Routes with Distance Less than N\n" +
+                                "9. Exit RouteTrix\n");
 
                 int opt;
                 Console.Write("Option: ");
@@ -220,7 +221,7 @@ namespace RouteTrixs
                                     }
 
 
-                                    Console.WriteLine("Do you want to continue Yes or No (Y/N)");
+                                    Console.Write("Do you want to continue Yes or No (Y/N): ");
                                     string contTask = Console.ReadLine();
 
                                     if (contTask.ToLower() == "no" || contTask.ToLower() == "n")
@@ -275,8 +276,8 @@ namespace RouteTrixs
                                         Console.WriteLine("There was an error in your entries. Please enter valid inputs.\n");
                                     }
 
-                                    Console.WriteLine("Do you want to continue Yes or No (Y/N)");
-                                    string contTask = Console.ReadLine();
+                               Console.Write("Do you want to continue Yes or No (Y/N): ");
+                                          string contTask = Console.ReadLine();
 
                                     if (contTask.ToLower() == "no" || contTask.ToLower() == "n")
                                     {
@@ -309,7 +310,7 @@ namespace RouteTrixs
                                 {
 
                                     Console.Clear();
-                                    Console.WriteLine("RouteTrix v1.0 - Route Manager (Compute the Length of Shortest Route)");
+                                    Console.WriteLine("RouteTrix v1.0 - Route Manager (Compute the Length of Shortest Route Between 2 Points)");
                                     Console.WriteLine("---------------------------------------------------------------------------------\n");
                                     try
                                     {
@@ -329,8 +330,8 @@ namespace RouteTrixs
                                     {
                                         Console.WriteLine("There was an error in your entries. Please enter valid inputs.\n");
                                     }
-                                    Console.WriteLine("Do you want to continue Yes or No (Y/N)");
-                                    string contTask = Console.ReadLine();
+                                    Console.Write("Do you want to continue Yes or No (Y/N): ");
+                                     string contTask = Console.ReadLine();
 
                                     if (contTask.ToLower() == "no" || contTask.ToLower() == "n")
                                     {
@@ -383,8 +384,8 @@ namespace RouteTrixs
                                         Console.WriteLine("There was an error in your entries. Please enter valid inputs.\n");
                                     }
 
-                                    Console.WriteLine("Do you want to continue Yes or No (Y/N)");
-                                    string contTask = Console.ReadLine();
+                                   Console.Write("Do you want to continue Yes or No (Y/N): ");
+                                     string contTask = Console.ReadLine();
 
                                     if (contTask.ToLower() == "no" || contTask.ToLower() == "n")
                                     {
@@ -406,6 +407,11 @@ namespace RouteTrixs
                             }
                         }
                         break;
+                    case 9: {
+                        Console.WriteLine("Closing Routrixs...");
+                        Environment.Exit(0);
+                    }
+                    break;
                     default:
                         Console.WriteLine("Invalid option.");
                         break;
