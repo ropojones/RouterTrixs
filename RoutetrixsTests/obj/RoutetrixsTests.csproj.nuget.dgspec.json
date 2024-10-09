@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj": {}
+    "C:\\Development\\NewGlobe\\RouteTrixsTests\\RoutetrixsTests.csproj": {}
   },
   "projects": {
-    "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj": {
+    "C:\\Development\\NewGlobe\\RouteTrixsTests\\RoutetrixsTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj",
-        "projectName": "RouteTrixsTests",
-        "projectPath": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj",
+        "projectUniqueName": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RoutetrixsTests.csproj",
+        "projectName": "RoutetrixsTests",
+        "projectPath": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RoutetrixsTests.csproj",
         "packagesPath": "C:\\Users\\Oluropo\\.nuget\\packages\\",
         "outputPath": "C:\\Development\\NewGlobe\\RouteTrixsTests\\obj\\",
         "projectStyle": "PackageReference",

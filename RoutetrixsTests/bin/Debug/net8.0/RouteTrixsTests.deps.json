@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "RouteTrixsTests/1.0.0": {
+      "RoutetrixsTests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "NUnit": "3.14.0",
@@ -16,7 +16,7 @@
           "coverlet.collector": "6.0.0"
         },
         "runtime": {
-          "RouteTrixsTests.dll": {}
+          "RoutetrixsTests.dll": {}
         }
       },
       "coverlet.collector/6.0.0": {},
@@ -328,7 +328,7 @@
     }
   },
   "libraries": {
-    "RouteTrixsTests/1.0.0": {
+    "RoutetrixsTests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
