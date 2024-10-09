@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\NewGlobe\\Routetrixs\\Routetrixs.csproj": {}
+    "C:\\Development\\NewGlobe\\Routetrixs\\RouteTrixs.csproj": {}
   },
   "projects": {
-    "C:\\Development\\NewGlobe\\Routetrixs\\Routetrixs.csproj": {
+    "C:\\Development\\NewGlobe\\Routetrixs\\RouteTrixs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\NewGlobe\\Routetrixs\\Routetrixs.csproj",
-        "projectName": "Routetrixs",
-        "projectPath": "C:\\Development\\NewGlobe\\Routetrixs\\Routetrixs.csproj",
+        "projectUniqueName": "C:\\Development\\NewGlobe\\Routetrixs\\RouteTrixs.csproj",
+        "projectName": "RouteTrixs",
+        "projectPath": "C:\\Development\\NewGlobe\\Routetrixs\\RouteTrixs.csproj",
         "packagesPath": "C:\\Users\\Oluropo\\.nuget\\packages\\",
         "outputPath": "C:\\Development\\NewGlobe\\Routetrixs\\obj\\",
         "projectStyle": "PackageReference",

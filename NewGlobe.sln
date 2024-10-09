@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routetrixs", "Routetrixs\Routetrixs.csproj", "{E07A3B4F-0A77-4A86-A278-6F60A7A4C289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteTrixs", "Routetrixs\RouteTrixs.csproj", "{E07A3B4F-0A77-4A86-A278-6F60A7A4C289}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteTrixsTests", "RouteTrixsTests\RouteTrixsTests.csproj", "{131A399E-3129-4D03-9F78-CFEFF62646C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteTrixsTests", "RouteTrixsTests\RouteTrixsTests.csproj", "{131A399E-3129-4D03-9F78-CFEFF62646C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Development\\NewGlobe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{131A399E-3129-4D03-9F78-CFEFF62646C9}|RouteTrixsTests\\RouteTrixsTests.csproj|c:\\development\\newglobe\\routetrixstests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{131A399E-3129-4D03-9F78-CFEFF62646C9}|RouteTrixsTests\\RouteTrixsTests.csproj|solutionrelative:routetrixstests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{131A399E-3129-4D03-9F78-CFEFF62646C9}|RouteTrixsTests\\RouteTrixsTests.csproj|c:\\development\\newglobe\\routetrixstests\\routetrixstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A399E-3129-4D03-9F78-CFEFF62646C9}|RouteTrixsTests\\RouteTrixsTests.csproj|solutionrelative:routetrixstests\\routetrixstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A399E-3129-4D03-9F78-CFEFF62646C9}|RouteTrixsTests\\RouteTrixsTests.csproj|c:\\development\\newglobe\\routetrixstests\\routetrixstests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{131A399E-3129-4D03-9F78-CFEFF62646C9}|RouteTrixsTests\\RouteTrixsTests.csproj|solutionrelative:routetrixstests\\routetrixstests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Development\\NewGlobe\\RouteTrixsTests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "RouteTrixsTests\\UnitTest1.cs",
-              "ToolTip": "C:\\Development\\NewGlobe\\RouteTrixsTests\\UnitTest1.cs",
-              "RelativeToolTip": "RouteTrixsTests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RoutetrixsTest.cs",
+              "DocumentMoniker": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RoutetrixsTest.cs",
+              "RelativeDocumentMoniker": "RouteTrixsTests\\RoutetrixsTest.cs",
+              "ToolTip": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RoutetrixsTest.cs",
+              "RelativeToolTip": "RouteTrixsTests\\RoutetrixsTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:27:45.978Z",
+              "WhenOpened": "2024-10-09T02:06:00.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteTrixsTests",
+              "DocumentMoniker": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj",
+              "RelativeDocumentMoniker": "RouteTrixsTests\\RouteTrixsTests.csproj",
+              "ToolTip": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj",
+              "RelativeToolTip": "RouteTrixsTests\\RouteTrixsTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-09T02:02:20.841Z",
               "EditorCaption": ""
             }
           ]
