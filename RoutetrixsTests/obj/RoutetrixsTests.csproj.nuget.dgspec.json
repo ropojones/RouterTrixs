@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\NewGlobe\\RoutetrixsTests\\RoutetrixsTests.csproj": {}
+    "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj": {}
   },
   "projects": {
-    "C:\\Development\\NewGlobe\\RoutetrixsTests\\RoutetrixsTests.csproj": {
+    "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\NewGlobe\\RoutetrixsTests\\RoutetrixsTests.csproj",
-        "projectName": "RoutetrixsTests",
-        "projectPath": "C:\\Development\\NewGlobe\\RoutetrixsTests\\RoutetrixsTests.csproj",
+        "projectUniqueName": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj",
+        "projectName": "RouteTrixsTests",
+        "projectPath": "C:\\Development\\NewGlobe\\RouteTrixsTests\\RouteTrixsTests.csproj",
         "packagesPath": "C:\\Users\\Oluropo\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\NewGlobe\\RoutetrixsTests\\obj\\",
+        "outputPath": "C:\\Development\\NewGlobe\\RouteTrixsTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
