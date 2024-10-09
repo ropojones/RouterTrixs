@@ -9,10 +9,10 @@ NUnit Framework
 NUnit3 Test Adapter 
 
 # Get Started with RouteTrix
-Install all the required frameworks, then extract or download or clone the project from shared file or github repositiory. The zip file shared comprises of a NewGlobe folder,  which contains **NewGlobe.sln** file, and 2 projects folders, **RouteTrixs** and **RouteTrixsTest**.
+Install all the required frameworks. Extract the program folder from thhe shared zip file or clone the project from github repositiory. The zip file shared comprises of a NewGlobe folder,  which contains **NewGlobe.sln** file, and 2 projects folders, **RouteTrixs** and **RouteTrixsTest**.
 
 # How to run RouteTrix
-Open the project folder from your IDE (Visual Studio or Visual Studio Code) or open the NewGlobe solution file in Visual Studio.
+Open the project folder from your IDE Visual StudioCode or open the NewGlobe.sln solution file in Visual Studio.
 
 ## Run RouteTrixs Project
 ### To run the RouteTrixs program in Visual Studio Code, 
@@ -38,7 +38,7 @@ Please select an option:
 9. Exit RouteTrix
 
 ```
-- Select an option from 1 - 9. To run the program you must select option 1 or 2 to provide sample data to the program. Option 1, seeds the sample data from the assignment instruction. Option 2, will allow you to add the sample data manually. Please note, it only implements Add ROutes, which allows you add route data to the program.
+- Select an option from 1 - 9. To run the program you must select option 1 or 2 to provide sample data to the program. Option 1, seeds the sample data from the assignment instruction. Option 2, will allow you to add the sample data manually. Please note, it only implements Add Routes, which allows you add route data to the program.
 
 ## Run RouteTrixs Test Project
 ### To run the RouteTrixsTests program in Visual Studio Code 

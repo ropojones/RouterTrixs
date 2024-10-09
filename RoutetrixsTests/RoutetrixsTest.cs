@@ -1,5 +1,8 @@
+ 
+using Microsoft.Extensions.DependencyInjection;
 using RouteTrixs.Application.Services;
 using RouteTrixs.Domain.Services;
+using System.Collections.Generic;
 
 namespace RouteTrixsTests
 {
@@ -10,6 +13,11 @@ namespace RouteTrixsTests
         [SetUp]
         public void Setup()
         {
+             // Set up dependency injection for testing
+            var serviceProvider = new ServiceCollection()
+                .AddSingleton<IRouteService, RouteService>()
+                .BuildServiceProvider();
+
             // Sample routes
             var routes = new List<(string, string, int)>
             {

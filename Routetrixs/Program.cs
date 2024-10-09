@@ -13,6 +13,9 @@ using RouteTrixs.Infrastructure.Data;
 using RouteTrixs.Utilities;
 using System;
 using System.Net;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using RouteTrixs.Domain.Services;
 
 namespace RouteTrixs
 {
@@ -20,15 +23,23 @@ namespace RouteTrixs
     {
         static void Main(string[] args)
         {
-
             string option;
             string cont;
 
-            RouteService routeService = null;
+            // Setting up a HostBuilder to configure Dependency Injection
+            var host = Host.CreateDefaultBuilder()
+                .ConfigureServices((context, services) =>
+                {
+                    // Registering the IRouteService and RouteService
+                    services.AddSingleton<IRouteService, RouteService>();                   
+                })
+                .Build();
+
+            // Resolves and runs the main application
+            var routeService = host.Services.GetRequiredService<IRouteService>();
+
             RouteManager routeManager = new RouteManager();
-
             var routes = new List<(string, string, int)>();
-
             while (true)
             {
 
@@ -105,7 +116,7 @@ namespace RouteTrixs
                                 {
                                     break;
                                 }
-                                routeService = new RouteService(routeManager.GetRoutes());
+                              //  routeService = new RouteService(routeManager.GetRoutes());
                             }
                         }
                         break;
@@ -143,7 +154,7 @@ namespace RouteTrixs
                                 Console.WriteLine("Enter route path (e.g., A-B-C) or enter done to go back to menu .\n");
                                 while (true)
                                 {
-                                    
+
                                     Console.Write("Enter Route Path: ");
                                     string routeString = Console.ReadLine().ToUpper();
                                     if (routeString.ToLower() != "done")
@@ -276,8 +287,8 @@ namespace RouteTrixs
                                         Console.WriteLine("There was an error in your entries. Please enter valid inputs.\n");
                                     }
 
-                               Console.Write("Do you want to continue Yes or No (Y/N): ");
-                                          string contTask = Console.ReadLine();
+                                    Console.Write("Do you want to continue Yes or No (Y/N): ");
+                                    string contTask = Console.ReadLine();
 
                                     if (contTask.ToLower() == "no" || contTask.ToLower() == "n")
                                     {
@@ -331,7 +342,7 @@ namespace RouteTrixs
                                         Console.WriteLine("There was an error in your entries. Please enter valid inputs.\n");
                                     }
                                     Console.Write("Do you want to continue Yes or No (Y/N): ");
-                                     string contTask = Console.ReadLine();
+                                    string contTask = Console.ReadLine();
 
                                     if (contTask.ToLower() == "no" || contTask.ToLower() == "n")
                                     {
@@ -384,8 +395,8 @@ namespace RouteTrixs
                                         Console.WriteLine("There was an error in your entries. Please enter valid inputs.\n");
                                     }
 
-                                   Console.Write("Do you want to continue Yes or No (Y/N): ");
-                                     string contTask = Console.ReadLine();
+                                    Console.Write("Do you want to continue Yes or No (Y/N): ");
+                                    string contTask = Console.ReadLine();
 
                                     if (contTask.ToLower() == "no" || contTask.ToLower() == "n")
                                     {
@@ -407,11 +418,12 @@ namespace RouteTrixs
                             }
                         }
                         break;
-                    case 9: {
-                        Console.WriteLine("Closing Routrixs...");
-                        Environment.Exit(0);
-                    }
-                    break;
+                    case 9:
+                        {
+                            Console.WriteLine("Closing Routrixs...");
+                            Environment.Exit(0);
+                        }
+                        break;
                     default:
                         Console.WriteLine("Invalid option.");
                         break;
