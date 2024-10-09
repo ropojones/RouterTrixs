@@ -3,7 +3,9 @@ RouteTrixs is an operational support tool that helps your organization provision
 
 # Requirements: 
 .NET Core 8.0.1
+
 NUnit Framework
+
 NUnit3 Test Adapter 
 
 # How to Test Routerix
